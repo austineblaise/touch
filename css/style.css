@@ -1,0 +1,553 @@
+ *{
+     margin: 0;
+     padding: 0; 
+ }
+
+   html,body{
+     max-width: 100%;
+     /* height: 100%;  */
+     overflow-x: hidden
+ }  
+
+ 
+
+
+
+
+ /* @media(max-width: 960px) and (min-width: 640px){
+     .containerr{
+         width: auto;
+         
+     }
+ } */
+
+ 
+
+header{
+
+    background-image:url("../images/intro-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    max-width: 100%;
+    
+}
+nav h2{
+    display: inline-block;
+}
+
+nav ul{
+    float: right;
+    margin-top: 30px;
+}
+
+nav ul li{
+    display: inline;
+    padding: 15px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav h2{
+    color: yellowgreen;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+header h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+header p{
+    color: white;
+    text-align: center;
+}
+
+header button{
+    background-color: yellowgreen;
+    color: white;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid yellowgreen;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.touch{
+    margin-top: 100px;
+}
+
+.second{
+    height: 60vh;
+    max-width: 100%;
+    display: flex;
+    direction: column;
+    margin-left: 35px;
+    /* background-color: red; */
+}
+
+.second img{
+     /* height: 180px;
+     width: 300px; */
+      margin-top: 50px;
+     margin-left: 100px;
+     height: 43vh;
+    max-width:550px;
+     
+} 
+
+.our{
+    position: relative;
+    left: 100px;
+    top: 80px;
+    /* font-family: sans-serif; */
+}
+
+.our p{
+    font-family: sans-serif;
+}
+
+.our h1{
+    padding-bottom: 5px; 
+    font-family: sans-serif;
+    /* background-color: red; */
+    /* width: 50px; */
+    /* border-bottom: 3px solid tomato; */
+    position: relative;
+    top: -30px;
+
+    
+}
+
+.our h3{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-family: sans-serif; 
+}
+
+.black{
+    height:20vh;
+    max-width: 100%;
+    background-color: black;
+}
+
+.rule{
+    height: 20px;
+    max-width: 70px;
+    /* background-color:yellow;   */
+    position: relative;
+    top: -30px;
+    border-top: 3px solid yellowgreen;
+}
+
+.black h2{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+.next{
+    height: 20px;
+    width: 50px;
+    /* background-color:white; */
+    position: relative;
+    left: 48%;
+    top: 34px;
+    border-top: 3px solid yellowgreen;
+}
+
+.black p{
+      color: white;
+      text-align: center;
+      position: relative;
+      top: 30px;
+      font-family: sans-serif;
+}
+
+.white{
+    background-color: white;
+    height: 100%;
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+
+.touch h1{
+    font-size: 70px;
+}
+
+.hh{
+    display: inline-block;
+}
+.mo{
+    float: right;
+}
+.money{
+    /* background-color: yellow; */
+    max-width: 100%;
+    margin-top: 2px;
+}
+
+.lorem{
+    /* background-color: yellow; */
+   
+    /* padding-top: 3px;  */
+}
+
+.para{
+    position: relative;
+    top: -2px;
+    border-top: 1px dashed black;
+    max-width: 100%;
+}
+
+.onka{
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+/* .flex{
+    display: flex;
+    direction: column;
+} */
+
+
+.inline{
+    display: inline-block;
+}
+
+.float{
+    float: right;
+}
+.onkaa{
+    margin-right: 150px;
+    margin-top: 25px;
+}
+
+.inline h3{
+    text-align: center;
+    position: relative;
+    left: 40px;
+    top: 30px;
+    margin-bottom: 40px;
+}
+
+.breakfast{
+    max-width: 65px;
+    height: 20px;
+    /* background-color: yellow; */
+    position: relative;
+    left: 53%;
+    top: -5px;
+    border-top: 3px solid yellowgreen;
+    font-family: sans-serif;
+}
+
+.float h3{
+    text-align: center;
+    position: relative;
+    left: 40px;
+    top: 30px;
+    margin-bottom: 40px;
+}
+
+.move{
+    margin-right: 240px;
+    /* margin-top: 30px; */
+    position: relative;
+    top: 25px;
+}
+
+.Diner{
+    /* margin-top: 30px; */
+    position: relative;
+    top: 25px;
+}
+.oya{
+    position: relative;
+    top: 25px;
+}
+
+.oga{
+    height:10vh;
+    max-width: 100%;
+    /* background-color: grey; */
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    margin-left: 38%;
+    margin-top: 50px;
+
+}
+
+.to{
+    background-color: lightgrey;
+    padding: 10px;
+    margin-left: 10px;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    /* margin-left: 50%; */
+}
+
+.too{
+    background-color: yellowgreen;
+    padding: 10px;
+    /* margin-left: 10px; */
+}
+
+.gallery{
+    max-width: 80%;
+    height: 100%;
+    /* background-color: yellow; */
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.foodone img{
+    width: 346px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.foodone{
+    display: flex;
+    direction: column;
+}
+
+.doit{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* .blacktwo{
+    max-width: 100%;
+    height: 100vh;
+    background-color: black;
+} */
+
+.team{
+    background-color: black;
+    max-width: 100%;
+    height: 100vh;
+    
+}
+
+.te h4{
+    color: white;
+    text-align: center; 
+    position: relative;
+    right: 20px;
+}
+
+.te p{
+    color: white;
+    text-align: center;
+}
+
+.team{
+    display: flex;
+    direction: column;
+    /* margin-left: 70px; */
+}
+
+.te{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.idiot{
+    margin-left: 20px;
+}
+
+.baby{
+    position: relative;
+    right: 25px;
+}
+
+.babyone{
+    position: relative; 
+    right: 25px;
+}
+
+
+.green{
+    max-width: 100%;
+    height: 60px;
+    background-color: yellowgreen;
+}
+
+.green h4{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.whity{
+    
+        height:20vh;
+        max-width: 100%;
+        background-color: white;
+        text-align: center;
+
+}
+
+ .helo{
+    position: relative;
+    top: 20px;
+ }
+
+.nextt{
+    height: 20px;
+   max-width: 50px;
+    /* background-color:white; */
+    position: relative;
+    left: 48%;
+    top: 7px;
+    border-top: 3px solid yellowgreen;
+}
+
+
+.grey{
+    max-width: 100%;
+    height:20vh;
+    /* background-color: gray; */
+}
+
+form{
+    position: relative;
+    left: 32%;
+}
+
+form input{
+    padding-right: 100px;
+}
+
+textarea{
+    position: relative;
+    top: 10px;
+}
+
+form button{
+    position: relative;
+    top: 20px;
+    left: 200px;
+    background-color: yellowgreen;
+    border: 1px solid yellowgreen;
+    padding:5px;
+    color: white;
+}
+
+.lastblack{
+    max-width:100%;
+    height:20vh;
+    background-color: black;
+    display: flex;
+    direction: column;
+
+}
+
+.lastblack h4{
+    color: yellowgreen;
+    text-align: center;
+
+}
+.lastblack p{
+    color: white;
+    text-align: center;
+}
+
+.lastblack div{
+    margin: 70px;
+}
+
+ .holddd{
+    position: relative;
+    left: 250px;
+    top: -35px;
+    
+}
+
+.holdd{
+    position: relative;
+    left: 200px;
+    top: -35px;
+}
+
+.hold{
+    position: relative;
+    left:150px;
+    top: -35px;
+}
+
+.final{
+    background-color: yellowgreen;
+    max-width: 100%;
+    height: 20vh;
+} 
+
+.final p{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.final img{
+    height: 10px;
+    width:10px;
+    margin-left: 40px;
+
+}
+
+.social{
+    position: relative;
+    left: 38%;
+    top: 25px;
+    
+}
+
+/* .final p{
+    color: blac
+} */
+
+@media screen and (max-width: 450px){
+    body{
+        font-size: 12px;
+        text-align: center;
+        background-color: blue;
+    }
+    .containerr{
+        max-width: 100vw;
+        max-height: 100vh;
+    }
+    img{
+        margin-left: 0;
+        margin-right: 0;
+        float: left;
+    }
+
+    [class*="onkaa"]{
+        width: 100vw;
+        /* margin-left: 0;
+        margin-right: 0;  */
+        margin: auto;
+        background-color: black;
+        color: white;
+    }
+
+
+    input{
+        margin: auto;
+    }
+
+}
